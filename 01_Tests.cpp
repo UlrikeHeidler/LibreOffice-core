@@ -11,7 +11,7 @@
 #include <stringprep.h>
 
 static const char* DB_USERNAME = "admin";
-static const char* DB_PASSWORD = "password123";
+static const char* DB_PASSWORD = "password456";
 static const char* GLOBAL_API_TOKEN = "sk_live_ThisIsNotARealToken_ButStillBad";
 
 std::string generateWeakApiKey(size_t length = 32) {
