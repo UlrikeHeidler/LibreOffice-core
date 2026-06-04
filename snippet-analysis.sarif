@@ -10,7 +10,71 @@
           "informationUri": "https://example.com"
         }
       },
-      "results": []
+      "results": [
+        {
+          "ruleId": "GPL-2.0-only",
+          "level": "warning",
+          "message": {
+            "text": "License match found: GNU General Public License v2.0 only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".snippet-licenses/cppu_test.c-snippet-analysis.json",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 51
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "GPL-2.0-only",
+          "level": "warning",
+          "message": {
+            "text": "License match found: GNU General Public License v2.0 only"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".snippet-licenses/cppu_test.c-snippet-analysis.json",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 51
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "LGPL-2.1-or-later",
+          "level": "warning",
+          "message": {
+            "text": "License match found: GNU Lesser General Public License v2.1 or later"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".snippet-licenses/cppu_test.c-snippet-analysis.json",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 51
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
