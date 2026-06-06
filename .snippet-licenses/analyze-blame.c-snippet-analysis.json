@@ -1,0 +1,92 @@
+{
+  "snippetMatches": {
+    "RECIPROCAL": [
+      {
+        "projectName": "systemd",
+        "releaseVersion": "260~rc1",
+        "licenseDefinition": {
+          "name": "GNU General Public License v2.0 only",
+          "spdxId": "GPL-2.0-only",
+          "ownership": "OPEN_SOURCE",
+          "licenseDisplayName": "GNU General Public License v2.0 only"
+        },
+        "matchedFilePath": "/systemd-46efee7d2bb7055917c7eb7592fb8f249fc8b4b3/src/analyze/analyze-blame.c",
+        "regions": {
+          "sourceStartLines": [
+            1
+          ],
+          "sourceEndLines": [
+            51
+          ],
+          "matchedStartLines": [
+            1
+          ],
+          "matchedEndLines": [
+            59
+          ]
+        }
+      },
+      {
+        "projectName": "systemd",
+        "releaseVersion": "258~rc1",
+        "licenseDefinition": {
+          "name": "GNU General Public License v2.0 only",
+          "spdxId": "GPL-2.0-only",
+          "ownership": "OPEN_SOURCE",
+          "licenseDisplayName": "GNU General Public License v2.0 only"
+        },
+        "matchedFilePath": "/systemd-4c7ec40e4e34ee46757104df50bb0874879f2d5b/src/analyze/analyze-blame.c",
+        "regions": {
+          "sourceStartLines": [
+            1
+          ],
+          "sourceEndLines": [
+            51
+          ],
+          "matchedStartLines": [
+            1
+          ],
+          "matchedEndLines": [
+            59
+          ]
+        }
+      }
+    ],
+    "WEAK_RECIPROCAL": [
+      {
+        "projectName": "systemd",
+        "releaseVersion": "259",
+        "licenseDefinition": {
+          "name": "GNU Lesser General Public License v2.1 or later",
+          "spdxId": "LGPL-2.1-or-later",
+          "ownership": "OPEN_SOURCE",
+          "licenseDisplayName": "GNU Lesser General Public License v2.1 or later"
+        },
+        "matchedFilePath": "/systemd-9ca433482f2281d71718718705ca8cd3bf562ad6/src/analyze/analyze-blame.c",
+        "regions": {
+          "sourceStartLines": [
+            1
+          ],
+          "sourceEndLines": [
+            51
+          ],
+          "matchedStartLines": [
+            1
+          ],
+          "matchedEndLines": [
+            59
+          ]
+        }
+      }
+    ]
+  },
+  "_meta": {
+    "href": "https://sca.field-test.blackduck.com/api/snippet-matching",
+    "links": [
+      {
+        "rel": "licenses-description",
+        "href": "https://www.blackduck.com/glossary/what-are-open-source-licenses.html"
+      }
+    ]
+  }
+}
