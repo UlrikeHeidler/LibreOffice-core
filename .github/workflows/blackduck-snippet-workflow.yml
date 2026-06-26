@@ -21,7 +21,7 @@ jobs:
           echo "BEARER_TOKEN=${BEARER_TOKEN}" >> $GITHUB_ENV  
       
       - name: Checkout code
-        uses: actions/checkout@v4  
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af68  # v4.2.2 
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -110,7 +110,7 @@ jobs:
           
       - name: Generate PR comment with findings
         id: comment
-        uses: actions/github-script@v6
+        uses: actions/github-script@c141a9230e9dca36bfa97c771eb3ffdb7467c6f6 # 6.4.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
